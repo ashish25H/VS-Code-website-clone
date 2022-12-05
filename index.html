@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>VS code clone</title>
+</head>
+ 
+<body>
+    <div class="bg-[#E21717] text-center text-stone-200 text-[20px] py-3 ">For Education Purpose</div>
+    <!-------------------------------- navBar------------------------ -->
+    <header class="flex justify-around items-center h-[60px]  bg-[#25252B] sticky -top-1 left-0 right-0">
+        <nav>
+            <ul class="flex justify-center items-center text-white">
+                <li><img src="./images/vscode.svg" alt="vs code img" class="w-[30px]" /></li>
+                <li class="text-[25px] pl-2 hover:cursor-pointer ">Visual Stideo Code</li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all	">Docs</li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">Updates
+                </li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">Blog</li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">Api</li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">Extensions
+                </li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">FAQ</li>
+                <li class="pl-2 pt-1 text-gray-500 hover:cursor-pointer  hover:text-slate-50 transition-all">Learn</li>
+            </ul>
+        </nav>
+        <div class="flex h-full">
+            <div class=" bg-gray-700 flex items-center hover:border-[1px] hover:border-white ">
+                <img src="./images/icons8-search-32.png" alt="search png" class="w-[25px] h-[25px] ml-2">
+                <input type="search" name="search" id="search" placeholder="Search Docs"
+                    class=" bg-gray-700 outline-none border-none text-white  ml-2 ">
+            </div>
+            <div class="bg-[#0072C6] flex items-center hover:bg-[#005BA4] hover:transition-all p-3">
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/download.svg" alt="downlode" class="w-[25px] h-[23px] ">
+                <button class="text-white p-2">Downlode</button>
+            </div>
+        </div>
+    </header>
+    <!-- --------------------------------navBar-------------------------------- -->
+    <main>
+        <!------------------------------------------- VS code img div -->
+        <div class="flex justify-evenly bg-[#2C2C32] text-white pt-10 pb-10">
+            <div class="flex flex-col justify-center items-center text-center">
+                <div>
+                    <h1 class="text-[3rem]">Code editing.<br> <span class="font-semibold">Redefined</span> .</h1>
+                    <p class="text-[#9ca3af]">Free. Built on open source. Runs everywhere.</p>
+                </div>
+                <div class="flex  mt-5 ">
+                    <button
+                        class="bg-[#0072C6] hover:bg-[#005BA4] transition-all py-2 px-4 mr-1 text-[18px] font-semibold">Downlode
+                        for Windows<br>
+                        <p class="text-xs font-normal">stable build</p>
+                    </button>
+                    <img src="./images/icons8-expand-arrow-30.png" alt="arrow"
+                        class="bg-[#0072C6] py-2 px-4 hover:bg-[#005BA4] transition-all">
+                </div>
+                <div class="bg-[#25252B] p-2 rounded-xl m-3">
+                    <span><a href="#" class="text-blue-600 text-xs">Web</a>,<a href="#"
+                            class="text-blue-600 text-xs">Insiders edition</a>, <span class="text-xs">or</span> <a
+                            href="#" class="text-blue-600 text-xs">other platforms</a></span>
+                </div>
+                <div>
+                    <p class="text-gray-400 text-xs">By using VS Code, you agree to its</p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/2022-11-29.png" alt="vs code img" class="w-[800px] h-[550px]">
+            </div>
+        </div>
+        <!-- -------------------------------VS code img div-------------------------- -->
+        <div class="flex justify-center items-center">
+            <div class="px-20 py-5 hover:bg-gray-200 ">
+                <img src="./images/icons8-bulb-99.png" alt="bulb" class="w-[64px] ml-[12px] ">
+                <p class="text-lg ">Intellisense</p>
+            </div>
+            <div class="px-20 py-5 hover:bg-gray-200">
+                <img src="./images/icons8-debugging-64.png" alt="debug" class="ml-[12px]">
+                <p class="text-lg">Debuging</p>
+            </div>
+            <div class="px-20 py-5 hover:bg-gray-200">
+                <img src="./images/icons8-merge-git-30.png" alt="git" class="w-[64px] ml-[12px]">
+                <p class="text-lg">Built-in Git</p>
+            </div>
+            <div class="px-20 py-5 hover:bg-gray-200">
+                <img src="./images/icons8-puzzle-50.png" alt="merge" class="w-[64px] ml-[10px]">
+                <p class="text-lg">Extensions</p>
+            </div>
+        </div>
+
+        <!-- ---------------------------review section------------------------- -->
+        <section class="bg-[#F5F5F5] flex items-center pt-24 pb-24 pl-32 pr-32">
+            <img src="./images/icons8-chevron-left-24.png" alt="left arrow" class="pr-10">
+            <div class="flex">
+                <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="photo"
+                    class="w-[80px] h-[80px] rounded-full pr-2">
+                <div>
+                    <h2 class="font-bold">name</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur minus sapiente esse
+                        recusandae nisi dignissimos neque necessitatibus hic magnam.</p>
+                </div>
+
+            </div>
+            <div class="flex">
+                <img src="./images/andriyko-podilnyk-zGQ17qQMaaM-unsplash.jpg" alt="photo"
+                    class="w-[80px] h-[80px] rounded-full pr-2">
+                <div>
+                    <h2 class="font-bold">name</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur minus sapiente esse
+                        recusandae nisi dignissimos neque necessitatibus hic magnam.</p>
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <img src="./images/vladimir-fedotov-SVxeVueQKLc-unsplash.jpg" alt="photo"
+                    class="w-[80px] h-[80px] rounded-full pr-2">
+                <div>
+                    <h2 class="font-bold">name</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur minus sapiente esse
+                        recusandae nisi dignissimos neque necessitatibus hic magnam.</p>
+                </div>
+            </div>
+            <img src="./images/icons8-right-arrow-32.png" alt="right arrow" class="pl-10 w-[60px]">
+        </section>
+        <!-- ---------------------------review section--------------------------------- -->
+        <section>
+            <div class="flex justify-center items-center py-20 px-44">
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-intellisense.svg"
+                    alt="intellisense">
+                <div class="ml-36">
+                    <h1 class="text-4xl font-light mb-8">Meet IntelliSense.</h1>
+                    <p class="leading-10 text-lg  text-[#4b5563]">Go beyond syntax highlighting and autocomplete with
+                        IntelliSense, which provides smart
+                        completions based on variable types, function definitions, and imported modules.</p>
+                </div>
+            </div>
+            <div class="flex  py-20 px-44 bg-[#F5F5F5]">
+                <div class="mr-36">
+                    <h1 class="text-4xl font-light mb-8">Print statement debugging is a thing of the past.</h1>
+                    <p class="leading-10 text-lg  text-[#4b5563]">Debug code right from the editor. Launch or attach to
+                        your running apps and debug with break
+                        points, call stacks, and an interactive console.</p>
+                </div>
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-debug.svg" alt="debug">
+            </div>
+            <div class="flex py-20 px-44">
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-git.svg" alt="git">
+                <div class="ml-36">
+                    <h1 class="text-4xl font-light mb-8">Git commands built-in.</h1>
+                    <p class="leading-10 text-lg  text-[#4b5563]">Working with Git and other SCM providers has never
+                        been easier. Review diffs, stage files, and
+                        make commits right from the editor. Push and pull from any hosted SCM service.</p>
+                </div>
+            </div>
+            <div class="flex py-20 px-44 bg-[#F5F5F5]">
+                <div class="mr-36">
+                    <h1 class="text-4xl font-light mb-8">Extensible and customizable.</h1>
+                    <p class="leading-10 text-lg  text-[#4b5563]">Want even more features? Install extensions to add new
+                        languages, themes, debuggers, and to
+                        connect to additional services. Extensions run in separate processes, ensuring they won't slow
+                        down your editor. Learn more about extensions.</p>
+                </div>
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/Hundreds-of-Extensions.png"
+                    alt="extensions" class="w-[350px] hover:scale-105 ease-in duration-300">
+            </div>
+            <div class="flex py-20 px-44">
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/home-azure.svg" alt="azure">
+                <div class="ml-36">
+                    <h1 class="text-4xl font-light mb-8">Deploy with confidence and ease</h1>
+                    <p class="leading-10 text-lg  text-[#4b5563]">With Microsoft Azure you can deploy and host your
+                        React, Angular, Vue, Node, Python (and more!)
+                        sites, store and query relational and document based data, and scale with serverless computing,
+                        all with ease, all from within VS Code.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------VS code for section------------------- -->
+        <section class="flex flex-col justify-center items-center bg-[#F5F5F5] py-16">
+            <div class="pb-10">
+                <h1 class="text-3xl font-light">VS Code for</h1>
+            </div>
+
+            <div class="flex pb-10 text-lg">
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/javascript.svg"
+                            alt="javascript">
+                        <p>Javascript</p>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/json.svg" alt="json">
+                        <p>JSON</p>
+                    </div>
+                </div>
+
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/python.svg" alt="python">
+                        <p>Python</p>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/powershell.svg"
+                            alt="power">
+                        <p>Powershell</p>
+                    </div>
+                </div>
+
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/java.svg" alt="java">
+                        <p>Java</p>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/html.svg" alt="html">
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/markdown.svg"
+                            alt="markdown">
+                        <p>Markdown</p>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/csharp.svg" alt="csharp">
+                        <p>C#</p>
+                    </div>
+                </div>
+
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/typescript.svg"
+                            alt="type">
+                        <p>Typescript</p>
+                    </div>
+
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/php.svg" alt="php">
+                        <p>PHP</p>
+                    </div>
+                </div>
+
+                <div class="px-10">
+                    <div class="flex pb-4">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/cpp.svg" alt="c/c++">
+                        <p>C/C++</p>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/Visual Studio Code - Code Editing. Redefined_files/yaml.svg" alt="yaml">
+                        <p>YAML</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-[#005BA4] text-lg hover:underline hover:cursor-pointer">
+                <p>and many more languages on the Marketplace...</p>
+            </div>
+
+
+            <button class="bg-[#0072C6] text-white py-4 px-9 text-xl mt-16 hover:bg-[#005BA4]">Get Started Now</button>
+        </section>
+        <!-------------------------------------------------- VS code for section--------------------------------------->
+
+
+        <!-- buttonTable -->
+        <div class="flex justify-evenly py-14">
+            <div class="flex flex-col items-center">
+                <div>
+                    <img src="./images/icons8-windows-10.svg" alt="ms logo" class="w-[120px]">
+                </div>
+                <div>
+                    <button
+                        class="flex flex-col justify-center items-center text-white bg-[#0072C6] py-2 px-14 hover:bg-[#005BA4]">
+                        <span class="flex pb-3"><img src="./images/icons8-download-24.png" alt="" class="pr-2"> Windows
+                        </span> <span class="text-sm">windows 8,10,11</span></button>
+                </div>
+                <div class="mt-3 text-sm">
+                    <table class=" border-separate border-spacing-[3px]">
+                        <tbody>
+                            <tr>
+                                <th>User Installer</th>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4] ">
+                                    x86</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                            <tr>
+                                <th>System Installer</th>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x86</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                            <tr>
+                                <th>.zip</th>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x86</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div>
+                    <img src="./images/linux-tux.svg" alt="linux" class="w-[120px]">
+                </div>
+                <div class="flex">
+                    <button
+                        class="flex flex-col  items-center text-white bg-[#0072C6] py-2 px-7 mr-2 hover:bg-[#005BA4]">
+                        <span class="flex py-2"> <img src="./images/icons8-download-24.png" alt="downlode" class="pr-2">
+                            <p>.deb</p>
+                        </span><span class="text-xs">
+                            <p>Debian,Ubuntu</p>
+                        </span></button>
+
+                    <button
+                        class="flex flex-col justify-center items-center text-white bg-[#0072C6] py-2 px-7 hover:bg-[#005BA4]">
+                        <span class="flex py-2"><img src="./images/icons8-download-24.png" class="pr-2" alt="downlode">
+                            .rpm</span><span class="text-xs">Red Hat,Fedroa,SUSE</span></button>
+                </div>
+                <div class="mt-3 text-sm">
+                    <table class=" border-separate border-spacing-[3px]">
+                        <tbody>
+                            <tr>
+                                <td><strong>.deb</strong></td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm32</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                            <tr>
+                                <td><strong>.rpm</strong></td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm32</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                            <tr>
+                                <td><strong>.tar.gz </strong></td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    x64</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm32</td>
+                                <td
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Arm64</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Snap</strong></td>
+                                <td colspan="2"
+                                    class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                    Snap Store</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div>
+                    <img src="./images/icons8-apple-logo.svg" alt="appleLogo" class="w-[120px]">
+                </div>
+                <div>
+                    <button
+                        class="flex flex-col justify-center items-center text-white bg-[#0072C6] py-2 px-16 hover:bg-[#005BA4]">
+                        <span class="flex pb-3"><img src="./images/icons8-download-24.png" alt="" class="pr-2"> Mac
+                        </span> <span class="text-sm">macOS 10.11+</span></button>
+                </div>
+                <div class="mt-3 text-sm">
+                    <table class=" border-separate border-spacing-[3px]">
+                        <tbody class=" border-spacing-[3px]">
+                            <th>.zip</th>
+                            <td
+                                class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                Universal</td>
+                            <td
+                                class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                Intel Chip</td>
+                            <td
+                                class="bg-[#0072C6] p-[2px] text-white  rounded-sm text-xs hover:cursor-pointer hover:bg-[#005BA4]">
+                                Apple silicon</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------buttonTable ------------------------------------------->
+
+        <section class="bg-[#F5F5F5] py-10">
+            <div class="flex justify-around ">
+                <div class="text-center">
+                    <h1 class="text-xl font-medium">Want new features sooner?</h1>
+                    <p>Get the <span
+                            class="text-blue-600 hover:text-[#005BA4] hover:cursor-pointer hover:underline">Insiders
+                            build</span> instead.</p>
+                </div>
+
+                <div class="text-center">
+                    <h1 class="text-xl font-medium">Use <span
+                            class="text-blue-600 hover:text-[#005BA4]  hover:cursor-pointer hover:underline">vscode.dev</span>
+                        for quick edits online!</h1>
+                    <p>GitHub, Azure Repos, and local files.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-16 text-sm px-[400px] leading-10">
+                <h1 class="text-[#6b7280]">LICENSE AND PRIVACY TERMS</h1>
+                <p class="text-[#6b7280]">By downloading and using Visual Studio Code, you agree to the <span
+                        class="text-blue-600 hover:text-[#005BA4]  hover:cursor-pointer hover:underline">license
+                        terms</span> and <span
+                        class="text-blue-600 hover:text-[#005BA4]  hover:cursor-pointer hover:underline">privacy
+                        statement</span>. VS Code automatically sends telemetry data and crash dumps to help us improve
+                    the product. If you would prefer not to have this data sent please go see <span
+                        class="text-blue-600 hover:text-[#005BA4]  hover:cursor-pointer hover:underline">How to Disable
+                        Crash Reporting</span> to learn how to disable it.</p>
+            </div>
+        </section>
+    </main>
+    <!-- --------------------------footer------------------------------------ -->
+    <footer class="text-white bg-[#333333] h-[90px] flex justify-evenly items-center">
+
+        <div class="flex items-center mb-3">
+            <p class="pr-5 text-sm">Hello from Seattle.</p>
+            <p class="pr-5 text-sm hover:text-[#c084fc]"> Follow @code</p>
+            <div class="flex">
+                <img src="./images/icons8-button-50.png" alt="button50" class="w-[40px] mr-2">
+                <img src="./images/icons8-button-32.png" alt="button32" class="w-[40px]">
+            </div>
+
+        </div>
+
+        <div class="flex">
+            <p class="pr-5 text-xs hover:text-[#c084fc]">Support</p>
+            <p class="pr-5 text-xs hover:text-[#c084fc]">Privacy</p>
+            <p class="pr-5 text-xs hover:text-[#c084fc]">Terms of Use</p>
+            <p class="pr-5 text-xs hover:text-[#c084fc]">License</p>
+            <div class="">
+                <img src="./images/Visual Studio Code - Code Editing. Redefined_files/microsoft-logo.png"
+                    alt="microsoft-logo" class="w-[100px]">
+                <p class="text-xs">© 2022 Microsoft</p>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- ------------------------------------footer-------------------------------------- -->
+</body>
+
+</html>
